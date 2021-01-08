@@ -20,3 +20,4 @@ De logica van het spel is als volgt.
 ![](flow_chart.png)
 
 ### Screencast
+https://grow.nxtmedia.technology/video/live-coding-minesweeper
