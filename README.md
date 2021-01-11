@@ -21,3 +21,6 @@ De logica van het spel is als volgt.
 
 ### Screencast
 https://grow.nxtmedia.technology/video/live-coding-minesweeper
+
+### Online version
+https://minesweeper.awesome.nxtmedia.technology/
