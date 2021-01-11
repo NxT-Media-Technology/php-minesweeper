@@ -1,7 +1,7 @@
 on: push
-name: 🚀 Deploy 
+name:  🚀 Deploy 
 jobs:
-  web-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
     - name: ⬇️ Get latest code
@@ -10,6 +10,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: ftp.awesomenxtmediatechnology.webhosting.be
-        username: githubactions
+        server: ftp.awesome.nxtmediatechnology
+        username: githubactions@awesomenxtmediatechnology
         password: ${{ secrets.ftp_password }}
